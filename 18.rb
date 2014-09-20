@@ -12,15 +12,14 @@ end
 # this just takes one argument
 def print_one(arg1)
     puts "arg1: #{arg1}"
-    end
+end
 
-    # this one takes no arguments
-    def print_none()
-      puts "I got nothin'."
-      end
+# this one takes no arguments
+def print_none()
+    puts "I got nothin'."
+end
 
-
-      print_two("Zed","Shaw")
-      print_two_again("Zed","Shaw")
-      print_one("First!")
-      print_none()
+print_two("Zed","Shaw")
+print_two_again("Zed","Shaw")
+print_one("First!")
+print_none()
